@@ -1,7 +1,11 @@
 import React from 'react'
 import { useLocation } from 'react-router-dom'
+import { IoArrowBackCircle } from "react-icons/io5";
+import { useNavigate } from 'react-router-dom'
 
 function Details() {
+
+  const navigation = useNavigate();
 
   const location = useLocation()
 
@@ -11,6 +15,11 @@ function Details() {
 
   return (
     <div>
+
+      <div className=" text-3xl px-5 py-5 md:px-10 md:py-10 md:text-6xl ">
+        <button onClick={() => navigation(-1)} className=' cursor-pointer'><IoArrowBackCircle /> </button>
+      </div>
+
       <div className=" px-10 py-10 flex flex-col sm:flex-row  gap-15 items-center justify-center">
         <div className="">
           <img className=' w-60 md:w-120 h-auto rounded-lg' src={counter.flags.png} alt="" />
