@@ -191,15 +191,9 @@ Solving these challenges helped me become more confident in React development.
 
 ---
 
-# 📸 Screenshots
-
-(Add your project screenshots here)
-
----
-
 # 👨‍💻 Author
 
-## Bunny
+## Himanshu Singh Bisht
 
 Frontend Developer (Learning React)
 
