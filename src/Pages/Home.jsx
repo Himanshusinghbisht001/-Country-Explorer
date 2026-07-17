@@ -1,7 +1,10 @@
 import React from 'react'
 import { FaArrowRightLong } from "react-icons/fa6";
+import { useNavigate } from 'react-router-dom'
 
 function Home() {
+
+  
   return (
     <div>
       <div className="flex flex-col lg:flex-row gap-10 items-center px-10 py-5 ">
@@ -12,7 +15,7 @@ function Home() {
             countres to find the details need.
           </p>
           <div className=" flex border px-6 py-2 w-fit items-center gap-3 rounded-2xl">
-            <button>Start Exploring </button>
+            <button >Start Exploring </button>
             <FaArrowRightLong />
           </div>
         </div>
